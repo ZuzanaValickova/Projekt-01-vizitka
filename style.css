@@ -1,3 +1,111 @@
 /* nejsme vcerejsi, pouzivame moderni a intuitivni box model */
 html { box-sizing: border-box; }
 *, ::after, ::before { box-sizing: inherit; }
+
+body {
+    margin: 0 auto;
+    max-width: 65%;
+    font-family: 'Space Grotesk', sans-serif;
+    color: #383232;
+    line-height: 1.6;
+    padding-top: 3%;
+    text-align: justify;
+    font-size: 20px;
+}
+
+h1 {
+    margin-bottom: 7%;
+    background-color: #695b5b;
+    color: white;
+    font-size: 40px;
+}
+
+h2 {
+    margin-top: 15%;
+    margin-bottom: 10%;
+    background-color:#695b5b;
+    color: white;
+    font-size: 33px;
+}
+
+h3 {
+    margin-top: 10%;
+    margin-bottom: 5%;
+    font-size: 30px;
+    background-color: #695b5b;
+    color: white;
+}
+
+
+div.seznam {
+    text-align: center;
+    margin-bottom: 3em;
+    font-size: 25px;
+}
+
+ul.polozky {
+    display: inline-block;
+    text-align: left;
+}
+
+footer {
+    margin-top: 20%;
+}
+
+img.portret {
+    max-width: 25%;
+    height: auto;
+    border-radius: 50%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 7%;
+    box-shadow: 0 3px 10px rgba(4, 4, 4, 0.15);
+}
+
+h1,
+h2,
+h3 {
+    text-align: center;
+}
+
+
+
+img.pristav,
+img.vodopad,
+img.kone,
+img.domy,
+img.jerab,
+img.pustina,
+img.zahrada,
+img.kodan,
+img.tivoli {
+    max-width: 30%;
+    height: auto;
+    border-radius: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 3em;
+    box-shadow: 0 3px 10px rgba(4, 4, 4, 0.15);
+}
+
+img.vodopad,
+img.pustina,
+img.kodan {
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+}
+
+ .paticka {
+    text-align: center;
+    background-color: #383232;
+    color: white;
+    padding: 0%;
+}
+
+/*nezdařilo se*
+.menicko {
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+}/
