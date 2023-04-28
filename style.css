@@ -10,14 +10,14 @@ body {
     line-height: 1.6;
     padding-top: 3%;
     text-align: justify;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 h1 {
-    margin-bottom: 7%;
+    margin-bottom: 0%;
     background-color: #695b5b;
     color: white;
-    font-size: 40px;
+    font-size: 50px;
 }
 
 h2 {
@@ -40,13 +40,14 @@ h3 {
 div.seznam {
     text-align: center;
     margin-bottom: 3em;
-    font-size: 25px;
+    font-size: 20px;
 }
+
 
 ul.polozky {
     display: inline-block;
     text-align: left;
-}
+} 
 
 footer {
     margin-top: 20%;
@@ -57,11 +58,9 @@ img.portret {
     height: auto;
     border-radius: 50%;
     display: block;
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: 7%;
+    margin: 7% auto 10% auto;
     box-shadow: 0 3px 10px rgba(4, 4, 4, 0.15);
-}
+} 
 
 h1,
 h2,
@@ -100,12 +99,25 @@ img.kodan {
     text-align: center;
     background-color: #383232;
     color: white;
-    padding: 0%;
 }
 
-/*nezdařilo se*
-.menicko {
-    list-style: none;
+
+.menicko li {
     display: inline-block;
+}
+
+.menicko a {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
+
+.menicko {
+    padding: 0;
+    background-color: #695b5b;
     text-align: center;
-}/
+}
+
+.menicko a:hover {
+    background-color: #b2a2a2;
+}
